@@ -66,7 +66,7 @@ install() {
   [[ ${color} == '-dark' ]] && local ELSE_DARK=${color}
   [[ ${color} == '-light' ]] && local ELSE_LIGHT=${color}
 
-  local THEME_DIR=${dest}/${name}${color}${size}${radius}
+  local THEME_DIR=${dest}/Mod-${name}${color}${size}${radius}
 
   [[ -d ${THEME_DIR} ]] && rm -rf ${THEME_DIR}
 
@@ -78,7 +78,7 @@ install() {
 
   echo "[Desktop Entry]" >> ${THEME_DIR}/index.theme
   echo "Type=X-GNOME-Metatheme" >> ${THEME_DIR}/index.theme
-  echo "Name=Canta${color}${size}${radius}" >> ${THEME_DIR}/index.theme
+  echo "Name=Mod-Canta${color}${size}${radius}" >> ${THEME_DIR}/index.theme
   echo "Comment=An Flat Gtk+ theme based on Material Design" >> ${THEME_DIR}/index.theme
   echo "Encoding=UTF-8" >> ${THEME_DIR}/index.theme
   echo "" >> ${THEME_DIR}/index.theme
