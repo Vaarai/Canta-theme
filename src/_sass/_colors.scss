@@ -75,10 +75,10 @@ $semi_fill_color: gtkalpha(currentColor, $lower_opacity / 2);
 $row_fill_color:  gtkalpha(currentColor, 0.05);
 
 // Misc colors
-$primary_color:         #00CE99;
-$alt_primary_color:     #00CF88;
-$progress_color:        #00CC65;
-$accent_color:          #FFAC00;
+$primary_color:         #000000;
+$alt_primary_color:     #000010;
+$progress_color:        #0F0A1A;
+$accent_color:          #167ABF;
 $disabled_accent_color: rgba($accent_color, 0.5);
 
 $link_color:         $primary_color;

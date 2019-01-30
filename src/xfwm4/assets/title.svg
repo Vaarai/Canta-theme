@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1" height="32" viewBox="0 0 1 32">
-  <rect width="1" height="32" fill="#47504e"/>
-  <rect width="1" height="1" fill="#FFFFFF" fill-opacity="0.1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1" height="24" viewBox="0 0 1 24">
+  <defs>
+    <linearGradient id="gradientTheme" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="1" />
+      <stop offset="100%" stop-color="#1E1E1E" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <rect width="1" height="24" fill="url(#gradientTheme)"/>
+  
 </svg>

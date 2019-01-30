@@ -68,7 +68,7 @@ Here's an example to change the _accent color_:
   - `./src/gnome-shell/assets-dark/more-results.svg`
   - `./src/gnome-shell/assets-dark/toggle-on.svg`
 
-2. Search `#FFAC00` (default accent color) and replace with your favorite color.
+2. Search `#167ABF` (default accent color) and replace with your favorite color.
 
   > The recommended color palette is: https://material.io/guidelines/style/color.html#color-color-palette
 

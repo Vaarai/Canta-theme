@@ -131,7 +131,7 @@
        id="linearGradient2636"
        osb:paint="solid">
       <stop
-         style="stop-color:#ffac00;stop-opacity:1;"
+         style="stop-color:#167ABF;stop-opacity:1;"
          offset="0"
          id="stop2634" />
     </linearGradient>
@@ -211,13 +211,13 @@
     <linearGradient
        id="color-accent">
       <stop
-         stop-color="#FFAC00"
+         stop-color="#167ABF"
          id="stop34" />
     </linearGradient>
     <linearGradient
        id="color-accent-disabled">
       <stop
-         stop-color="#FFAC00"
+         stop-color="#167ABF"
          stop-opacity="0.5"
          id="stop37" />
     </linearGradient>

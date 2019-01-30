@@ -145,8 +145,8 @@ for FILEPATH in "${PATHLIST[@]}"; do
 		-e 's/#E0E0E0/%SEL_BG%/g' \
 		-e 's/#F5F5F5/%BG%/g' \
 		-e 's/#FAFAFA/%BTN_BG%/g' \
-		-e 's/#FFAC00/%ACCENT_BG%/g' \
-		-e 's/#00CE99/%SEL_BG%/g' \
+		-e 's/#167ABF/%ACCENT_BG%/g' \
+		-e 's/#000000/%SEL_BG%/g' \
 		-e 's/#FFFFFF/%TXT_BG%/g' \
 		-e 's/#333e43/%MENU_BG%/g' \
 		-e 's/#455A64/%MENU_BG%/g' \
